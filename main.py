@@ -1,6 +1,6 @@
-num1 = float(input("Введите первое число: "))
-num2 = float(input("Введите второе число: "))
+num1 = float(input("Введите первое число: ")) #запрашивает у пользователя первое число
+num2 = float(input("Введите второе число: ")) #запрашивает у пользователя второе число
 
-result = "Числа равны" if num1 == num2 else (f"Наименьшее число: {num1}" if num1 < num2 else f"Наименьшее число: {num2}")
+result = "Числа равны" if num1 == num2 else (f"Наименьшее число: {num1}" if num1 < num2 else f"Наименьшее число: {num2}") #присваивание переменной result значение 
 
-print(result)
+print(result) #вывод result
